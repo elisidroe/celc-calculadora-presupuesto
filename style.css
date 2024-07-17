@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap');
+
+
+body{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.titulo
+{
+    color: #0f9e4a;
+    text-align: center;
+    font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+
+
+}
+
+.subtitulo
+{
+    color: yellow;
+    text-align: center;
+    font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+.container
+{
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.gastos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gastos label, .gastos input, .gastos button{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+}

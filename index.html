@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">
+    Bienvenido a nuestra app
+    </h1>
+    <h2 class="subtitulo">
+        Calcula tus gastos semanales
+    </h2>
+    <div class="container">
+        
+        <div class="gastos">
+            <h2>
+                Añade tus gastos aqui
+            </h2>
+        <form action="" id="agregar_gastos"> <!--primer ID-->
+            <label for="gastos">Gasto:</label>
+            <input type="text" placeholder="Nombre del gasto" id="gastos"> <!--segundo ID-->
+            <label for="cantidad">Cantidad:</label>
+            <Input type="text" placeholder="Cantidad en Pesos" id="cantidad"> <!--tercer ID-->
+                <button type="submit">Agregar :,C</button>
+        </form>
+        </div>
+        <div class="listado">
+            <h2>
+                Listado 
+            </h2>
+            <div class="" id="gasto"> <!--cuarto ID--> 
+                <ul class="listado_gastos"></ul>
+            </div>
+            <div class="listagastos">
+                <div class="presupuesto">
+                <p>Presupuesto: $ <span id="presupuesto"></span></p> <!--quinto ID-->
+                </div>
+                <div class="restante">
+                <p>Restante: $ <span id="restante"></span></p> <!--sexto ID-->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
